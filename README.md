@@ -3,7 +3,7 @@ This container allows you to run a rippled node. No config required.
 
 This container is running on ubuntu:latest.
 
-How to run
+# How to run
 
 If you want to build the image manually, use (you can change the tag):
 
@@ -22,7 +22,7 @@ You can change the --name.
 
 You can fetch a working sample config from the Github repo.
 
-So it's running
+# So it's running
 If you want to check the rippled-logs (container stdout, press CTRL - C to stop watching):
 
 docker logs -f rippled
@@ -33,10 +33,10 @@ Check the value of complete_ledgers in the server info to see if the server has 
 
 If you started the container manually, you may have to change the name of the container (rippled) to the name you entered in your docker run command.
 
-Connecting
+# Connecting
 You can now connect to the rippled websocket using a client like ripple-lib.
 
-Updating
+# Updating
 2018-02-21 rippled 0.90.0 is released
 2018-03-23 rippled 0.90.1 is released
 2018-05-15 rippled 1.0.0 is released
@@ -55,7 +55,8 @@ Updating
 2020-08-19 rippled 1.6.0 is released
 2021-05-24 rippled 1.7.2 is released
 2021-08-28 rippled 1.7.3 is released
-Update process
+
+# Update process
 Stop the container: docker stop rippled (if you named (--name) the container rippled)
 Remove the container: docker rm rippled
 Remove the image: docker rmi shreeja/ripple:latest (or if you built the container image based on the Github repo: use the image name you specified when building)
