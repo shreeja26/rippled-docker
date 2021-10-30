@@ -12,10 +12,10 @@ Learn about rippled server modes, including stock servers, validator servers, an
   - rippled servers store a variable amount of transaction and state history locally.
 
 - Peer Protocol
- - The peer protocol specifies the language rippled servers speak to each other.
+  - The peer protocol specifies the language rippled servers speak to each other.
 
 - Transaction Censorship Detection
- - XRP Ledger provides an automated transaction censorship detector that is available on all rippled servers.
+  - XRP Ledger provides an automated transaction censorship detector that is available on all rippled servers.
 
 # Rippled (node)
 This container allows you to run a rippled node. No config required.
